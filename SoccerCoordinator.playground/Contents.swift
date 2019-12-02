@@ -251,7 +251,7 @@ i = 0
 while i < dragons.count {
     i += 1
     var playerName: String = dragons[i-1] as! String //force cast due to type error
-    print("Dear Mr./Mrs./Ambiguous gender reference \(players[playerName]![2]), your son/daughter/ambiguous gender reference, \(playerName) has been assigned to team, Dragons! Please report for your first practice on 3/17 at 1 p.m.")
+    print("Dear Mr./Mrs./Person \(players[playerName]![2]), your child, \(playerName) has been assigned to team, Dragons! Please report for your first practice on 3/17 at 1 p.m.")
 }
 print("\nSharks:\n")
 
@@ -260,7 +260,7 @@ i = 0
 while i < sharks.count {
     i += 1
     var playerName: String = sharks[i-1] as! String //force cast due to type error
-    print("Dear Mr./Mrs./Ambiguous gender reference \(players[playerName]![2]), your son/daughter/ambiguous gender reference, \(playerName) has been assigned to team, Sharks! Please report for your first practice on 3/17 at 3 p.m.")
+    print("Dear Mr./Mrs./Person reference \(players[playerName]![2]), your child, \(playerName) has been assigned to team, Sharks! Please report for your first practice on 3/17 at 3 p.m.")
 }
 print("\nRaptors:\n")
 //init counter
@@ -268,6 +268,6 @@ i = 0
 while i < raptors.count {
     i += 1
     var playerName: String = raptors[i-1] as! String //force cast due to type error
-    print("Dear Mr./Mrs./Ambiguous gender reference \(players[playerName]![2]), your son/daughter/ambiguous gender reference, \(playerName) has been assigned to team, Raptors! Please report for your first practice on 3/18 at 1 p.m.")
+    print("Dear Mr./Mrs./Person \(players[playerName]![2]), your child, \(playerName) has been assigned to team, Raptors! Please report for your first practice on 3/18 at 1 p.m.")
 }
 
